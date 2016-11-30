@@ -1,0 +1,35 @@
+{
+  "name": "dravencms/translation",
+  "type": "dravencms-package",
+  "description": "DravenCMS Kdyby Translation",
+  "keywords": [
+    "dravencms",
+    "translation"
+  ],
+  "license": [
+    "LGPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Adam Schubert"
+    }
+  ],
+  "require": {
+    "kdyby/translation": "@dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "Dravencms\\": "src/"
+    }
+  },
+  "extra": {
+    "dravencms": {
+      "configuration": {
+        "extensions": {
+          "translation": "Kdyby\\Translation\\DI\\TranslationExtension"
+        }
+      }
+    }
+  }
+}
+
