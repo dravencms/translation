@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "kdyby/translation": "^v2.5.0"
+    "kdyby/translation": "^v2.6.0"
   },
   "autoload": {
     "psr-0": {
