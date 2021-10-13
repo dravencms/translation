@@ -1,0 +1,11 @@
+extensions:
+	translation: Contributte\Translation\DI\TranslationExtension
+
+translation:
+    locales:
+        default: en
+        fallback: [en]
+    returnOriginalMessage: true # to not translate undefined messages, default is false
+    localeResolvers:
+        - Contributte\Translation\LocalesResolvers\Router
+        - Contributte\Translation\LocalesResolvers\Header

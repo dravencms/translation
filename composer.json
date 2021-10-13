@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "kdyby/translation": "^v2.6.0"
+    "contributte/translation": "^v0.9.3"
   },
   "autoload": {
     "psr-0": {
@@ -24,11 +24,7 @@
   },
   "extra": {
     "dravencms": {
-      "configuration": {
-        "extensions": {
-          "translation": "Kdyby\\Translation\\DI\\TranslationExtension"
-        }
-      }
+      "configuration": "dravencms.config.neon"
     }
   }
 }
