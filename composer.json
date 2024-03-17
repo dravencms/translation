@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "contributte/translation": "^v0.9.3"
+    "contributte/translation": ">=0.9.3"
   },
   "autoload": {
     "psr-0": {
